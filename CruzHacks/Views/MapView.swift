@@ -10,7 +10,12 @@ import MapKit
 
 struct MapView: View {
     var body: some View {
-        Map(initialPosition: .region(region))
+        //ZStack {
+            Map(initialPosition: .region(region))
+            
+            //Button("show Namaste Lounge")
+        //}
+        
     }
     
     private var region: MKCoordinateRegion {
