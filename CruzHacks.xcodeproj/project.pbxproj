@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DB6807F2B5B9177001CF531 /* TextPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6807E2B5B9177001CF531 /* TextPractice.swift */; };
+		6DB680812B5B9177001CF531 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB680802B5B9177001CF531 /* ContentView.swift */; };
+		6DB680832B5B9178001CF531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DB680822B5B9178001CF531 /* Assets.xcassets */; };
+		6DB680862B5B9178001CF531 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DB680852B5B9178001CF531 /* Preview Assets.xcassets */; };
+		6DB680902B5B9179001CF531 /* CruzHacksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6808F2B5B9179001CF531 /* CruzHacksTests.swift */; };
+		6DB6809A2B5B9179001CF531 /* CruzHacksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB680992B5B9179001CF531 /* CruzHacksUITests.swift */; };
+		6DB6809C2B5B9179001CF531 /* CruzHacksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6809B2B5B9179001CF531 /* CruzHacksUITestsLaunchTests.swift */; };
+		6DB680AA2B5B9BD4001CF531 /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 6DB680A92B5B9BD4001CF531 /* GoogleMaps */; };
+		6DB680AC2B5B9BD4001CF531 /* GoogleMapsBase in Frameworks */ = {isa = PBXBuildFile; productRef = 6DB680AB2B5B9BD4001CF531 /* GoogleMapsBase */; };
+		6DB680AE2B5B9BD4001CF531 /* GoogleMapsCore in Frameworks */ = {isa = PBXBuildFile; productRef = 6DB680AD2B5B9BD4001CF531 /* GoogleMapsCore */; };
+		6DB680B02B5B9E09001CF531 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB680AF2B5B9E09001CF531 /* CircleImage.swift */; };
+		6DB680B22B5BA00B001CF531 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB680B12B5BA00B001CF531 /* MapView.swift */; };
+		6DB680B42B5BBDC7001CF531 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 6DB680B32B5BBDC7001CF531 /* landmarkData.json */; };
+		6DB680B62B5BBE05001CF531 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB680B52B5BBE05001CF531 /* Landmark.swift */; };
+		6DB680B82B5C4AFA001CF531 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB680B72B5C4AFA001CF531 /* ModelData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DB6808C2B5B9179001CF531 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DB680732B5B9177001CF531 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DB6807A2B5B9177001CF531;
+			remoteInfo = CruzHacks;
+		};
+		6DB680962B5B9179001CF531 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DB680732B5B9177001CF531 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DB6807A2B5B9177001CF531;
+			remoteInfo = CruzHacks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6DB6807B2B5B9177001CF531 /* CruzHacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CruzHacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DB6807E2B5B9177001CF531 /* TextPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPractice.swift; sourceTree = "<group>"; };
+		6DB680802B5B9177001CF531 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6DB680822B5B9178001CF531 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DB680852B5B9178001CF531 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6DB6808B2B5B9179001CF531 /* CruzHacksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CruzHacksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DB6808F2B5B9179001CF531 /* CruzHacksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CruzHacksTests.swift; sourceTree = "<group>"; };
+		6DB680952B5B9179001CF531 /* CruzHacksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CruzHacksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DB680992B5B9179001CF531 /* CruzHacksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CruzHacksUITests.swift; sourceTree = "<group>"; };
+		6DB6809B2B5B9179001CF531 /* CruzHacksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CruzHacksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6DB680AF2B5B9E09001CF531 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		6DB680B12B5BA00B001CF531 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		6DB680B32B5BBDC7001CF531 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		6DB680B52B5BBE05001CF531 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		6DB680B72B5C4AFA001CF531 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DB680782B5B9177001CF531 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB680AA2B5B9BD4001CF531 /* GoogleMaps in Frameworks */,
+				6DB680AE2B5B9BD4001CF531 /* GoogleMapsCore in Frameworks */,
+				6DB680AC2B5B9BD4001CF531 /* GoogleMapsBase in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DB680882B5B9179001CF531 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DB680922B5B9179001CF531 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DB680722B5B9177001CF531 = {
+			isa = PBXGroup;
+			children = (
+				6DB6807D2B5B9177001CF531 /* CruzHacks */,
+				6DB6808E2B5B9179001CF531 /* CruzHacksTests */,
+				6DB680982B5B9179001CF531 /* CruzHacksUITests */,
+				6DB6807C2B5B9177001CF531 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DB6807C2B5B9177001CF531 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DB6807B2B5B9177001CF531 /* CruzHacks.app */,
+				6DB6808B2B5B9179001CF531 /* CruzHacksTests.xctest */,
+				6DB680952B5B9179001CF531 /* CruzHacksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DB6807D2B5B9177001CF531 /* CruzHacks */ = {
+			isa = PBXGroup;
+			children = (
+				6DB680B32B5BBDC7001CF531 /* landmarkData.json */,
+				6DB680B52B5BBE05001CF531 /* Landmark.swift */,
+				6DB680B72B5C4AFA001CF531 /* ModelData.swift */,
+				6DB6807E2B5B9177001CF531 /* TextPractice.swift */,
+				6DB680802B5B9177001CF531 /* ContentView.swift */,
+				6DB680822B5B9178001CF531 /* Assets.xcassets */,
+				6DB680AF2B5B9E09001CF531 /* CircleImage.swift */,
+				6DB680B12B5BA00B001CF531 /* MapView.swift */,
+				6DB680842B5B9178001CF531 /* Preview Content */,
+			);
+			path = CruzHacks;
+			sourceTree = "<group>";
+		};
+		6DB680842B5B9178001CF531 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6DB680852B5B9178001CF531 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6DB6808E2B5B9179001CF531 /* CruzHacksTests */ = {
+			isa = PBXGroup;
+			children = (
+				6DB6808F2B5B9179001CF531 /* CruzHacksTests.swift */,
+			);
+			path = CruzHacksTests;
+			sourceTree = "<group>";
+		};
+		6DB680982B5B9179001CF531 /* CruzHacksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6DB680992B5B9179001CF531 /* CruzHacksUITests.swift */,
+				6DB6809B2B5B9179001CF531 /* CruzHacksUITestsLaunchTests.swift */,
+			);
+			path = CruzHacksUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DB6807A2B5B9177001CF531 /* CruzHacks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DB6809F2B5B9179001CF531 /* Build configuration list for PBXNativeTarget "CruzHacks" */;
+			buildPhases = (
+				6DB680772B5B9177001CF531 /* Sources */,
+				6DB680782B5B9177001CF531 /* Frameworks */,
+				6DB680792B5B9177001CF531 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CruzHacks;
+			packageProductDependencies = (
+				6DB680A92B5B9BD4001CF531 /* GoogleMaps */,
+				6DB680AB2B5B9BD4001CF531 /* GoogleMapsBase */,
+				6DB680AD2B5B9BD4001CF531 /* GoogleMapsCore */,
+			);
+			productName = CruzHacks;
+			productReference = 6DB6807B2B5B9177001CF531 /* CruzHacks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6DB6808A2B5B9179001CF531 /* CruzHacksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DB680A22B5B9179001CF531 /* Build configuration list for PBXNativeTarget "CruzHacksTests" */;
+			buildPhases = (
+				6DB680872B5B9179001CF531 /* Sources */,
+				6DB680882B5B9179001CF531 /* Frameworks */,
+				6DB680892B5B9179001CF531 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DB6808D2B5B9179001CF531 /* PBXTargetDependency */,
+			);
+			name = CruzHacksTests;
+			productName = CruzHacksTests;
+			productReference = 6DB6808B2B5B9179001CF531 /* CruzHacksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6DB680942B5B9179001CF531 /* CruzHacksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DB680A52B5B9179001CF531 /* Build configuration list for PBXNativeTarget "CruzHacksUITests" */;
+			buildPhases = (
+				6DB680912B5B9179001CF531 /* Sources */,
+				6DB680922B5B9179001CF531 /* Frameworks */,
+				6DB680932B5B9179001CF531 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DB680972B5B9179001CF531 /* PBXTargetDependency */,
+			);
+			name = CruzHacksUITests;
+			productName = CruzHacksUITests;
+			productReference = 6DB680952B5B9179001CF531 /* CruzHacksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DB680732B5B9177001CF531 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					6DB6807A2B5B9177001CF531 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					6DB6808A2B5B9179001CF531 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 6DB6807A2B5B9177001CF531;
+					};
+					6DB680942B5B9179001CF531 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 6DB6807A2B5B9177001CF531;
+					};
+				};
+			};
+			buildConfigurationList = 6DB680762B5B9177001CF531 /* Build configuration list for PBXProject "CruzHacks" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DB680722B5B9177001CF531;
+			packageReferences = (
+				6DB680A82B5B9BD4001CF531 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */,
+			);
+			productRefGroup = 6DB6807C2B5B9177001CF531 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DB6807A2B5B9177001CF531 /* CruzHacks */,
+				6DB6808A2B5B9179001CF531 /* CruzHacksTests */,
+				6DB680942B5B9179001CF531 /* CruzHacksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DB680792B5B9177001CF531 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB680862B5B9178001CF531 /* Preview Assets.xcassets in Resources */,
+				6DB680832B5B9178001CF531 /* Assets.xcassets in Resources */,
+				6DB680B42B5BBDC7001CF531 /* landmarkData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DB680892B5B9179001CF531 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DB680932B5B9179001CF531 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DB680772B5B9177001CF531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB680812B5B9177001CF531 /* ContentView.swift in Sources */,
+				6DB680B22B5BA00B001CF531 /* MapView.swift in Sources */,
+				6DB6807F2B5B9177001CF531 /* TextPractice.swift in Sources */,
+				6DB680B02B5B9E09001CF531 /* CircleImage.swift in Sources */,
+				6DB680B62B5BBE05001CF531 /* Landmark.swift in Sources */,
+				6DB680B82B5C4AFA001CF531 /* ModelData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DB680872B5B9179001CF531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB680902B5B9179001CF531 /* CruzHacksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DB680912B5B9179001CF531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB6809A2B5B9179001CF531 /* CruzHacksUITests.swift in Sources */,
+				6DB6809C2B5B9179001CF531 /* CruzHacksUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DB6808D2B5B9179001CF531 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DB6807A2B5B9177001CF531 /* CruzHacks */;
+			targetProxy = 6DB6808C2B5B9179001CF531 /* PBXContainerItemProxy */;
+		};
+		6DB680972B5B9179001CF531 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DB6807A2B5B9177001CF531 /* CruzHacks */;
+			targetProxy = 6DB680962B5B9179001CF531 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6DB6809D2B5B9179001CF531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6DB6809E2B5B9179001CF531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DB680A02B5B9179001CF531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CruzHacks/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.nashwin.CruzHacks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6DB680A12B5B9179001CF531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CruzHacks/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.nashwin.CruzHacks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6DB680A32B5B9179001CF531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.nashwin.CruzHacksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CruzHacks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CruzHacks";
+			};
+			name = Debug;
+		};
+		6DB680A42B5B9179001CF531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.nashwin.CruzHacksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CruzHacks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CruzHacks";
+			};
+			name = Release;
+		};
+		6DB680A62B5B9179001CF531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.nashwin.CruzHacksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CruzHacks;
+			};
+			name = Debug;
+		};
+		6DB680A72B5B9179001CF531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.nashwin.CruzHacksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CruzHacks;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DB680762B5B9177001CF531 /* Build configuration list for PBXProject "CruzHacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DB6809D2B5B9179001CF531 /* Debug */,
+				6DB6809E2B5B9179001CF531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DB6809F2B5B9179001CF531 /* Build configuration list for PBXNativeTarget "CruzHacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DB680A02B5B9179001CF531 /* Debug */,
+				6DB680A12B5B9179001CF531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DB680A22B5B9179001CF531 /* Build configuration list for PBXNativeTarget "CruzHacksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DB680A32B5B9179001CF531 /* Debug */,
+				6DB680A42B5B9179001CF531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DB680A52B5B9179001CF531 /* Build configuration list for PBXNativeTarget "CruzHacksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DB680A62B5B9179001CF531 /* Debug */,
+				6DB680A72B5B9179001CF531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6DB680A82B5B9BD4001CF531 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-maps-sdk";
+			requirement = {
+				kind = exactVersion;
+				version = 8.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6DB680A92B5B9BD4001CF531 /* GoogleMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6DB680A82B5B9BD4001CF531 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMaps;
+		};
+		6DB680AB2B5B9BD4001CF531 /* GoogleMapsBase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6DB680A82B5B9BD4001CF531 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMapsBase;
+		};
+		6DB680AD2B5B9BD4001CF531 /* GoogleMapsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6DB680A82B5B9BD4001CF531 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMapsCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6DB680732B5B9177001CF531 /* Project object */;
+}
