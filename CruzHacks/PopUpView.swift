@@ -44,7 +44,7 @@ struct PopUpView_Previews: PreviewProvider {
 
 private extension PopUpView {
     var background: some View {
-        RoundedCorners(color: .white, tl: 10, tr: 10, bl: 0, br: 0)
+        RoundedCorners(color: .white, tl: 10, tr: 10, bl: 10, br: 10)
             .shadow(color: .black.opacity(0.2), radius: 3)
     }
 }

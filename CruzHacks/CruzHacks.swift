@@ -14,7 +14,7 @@ struct CruzHacksApp: App {
     
     var body: some Scene {
         WindowGroup {
-            CircleImage()
+            MapView()
                 .environmentObject(sheetManager)
         }
     }
