@@ -8,25 +8,39 @@
 import SwiftUI
 
 struct CircleImage: View {
+    
+    @EnvironmentObject var sheetManager: SheetManager
+    
     var body: some View {
-        /*ZStack {
+        VStack {
             Button("namaste") {
-            }*/
+                sheetManager.present()
+            }
             Image("Namaste")
                 .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
                 .overlay {
                     Circle().stroke(.white, lineWidth: 4)
                 }
                 .shadow(radius: 7)
-        /*}
-        .overlay() {
-            PopUpView(landmark: landmarks[0])
+            
+            /*Button("location") {
+                sheetManager.present()
+                
+            }*/
         }
-        .ignoresSafeArea()*/
+        .overlay() {
+            if sheetManager.action.isPresented {
+                PopUpView(landmark: landmarks[7]){
+                    sheetManager.dismiss()
+                }
+            }
+            
+        }
         
     }
 }
 
 #Preview {
     CircleImage()
+        .environmentObject(SheetManager())
 }

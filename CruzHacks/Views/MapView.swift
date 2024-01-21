@@ -8,15 +8,18 @@
 import SwiftUI
 import MapKit
 
+extension CLLocationCoordinate2D {
+    static let namastelounge = CLLocationCoordinate2D(latitude: 36.987262, longitude: -122.059)
+}
+
 struct MapView: View {
     var body: some View {
-        //ZStack {
-            Map(initialPosition: .region(region))
-            
-            //Button("show Namaste Lounge")
-        //}
+        Map(initialPosition: .region(region)){
+            Marker("Namaste Lounge", coordinate: .namastelounge)
+        }
         
     }
+    
     
     private var region: MKCoordinateRegion {
         MKCoordinateRegion(
@@ -24,7 +27,9 @@ struct MapView: View {
             span: MKCoordinateSpan(latitudeDelta: 0.022, longitudeDelta: 0.022)
         )
     }
+    
 }
+
 
 #Preview {
     MapView()

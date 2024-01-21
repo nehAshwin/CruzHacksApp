@@ -13,11 +13,9 @@ struct Landmark: Hashable, Codable, Identifiable {
     var id: Int
     //lounge name
     var name: String
-    //remove
-    var park: String
     //college
-    var state: String
-    //remove or change
+    var location: String
+    //should we keep?
     var description: String
     
     private var imageName: String

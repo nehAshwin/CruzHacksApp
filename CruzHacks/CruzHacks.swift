@@ -9,7 +9,9 @@ import SwiftUI
 
 @main
 struct CruzHacksApp: App {
+    
     @StateObject var sheetManager = SheetManager()
+    
     var body: some Scene {
         WindowGroup {
             CircleImage()
